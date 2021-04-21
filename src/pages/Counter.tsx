@@ -3,8 +3,7 @@ import React, {useState} from 'react'
 const Counter = () => {
     const [count, setCount] = useState(0)
     const clickCounter = () => {
-       let value = count +1;
-        setCount(value)
+        setCount(count+1)
     }
     return (
         <div>
