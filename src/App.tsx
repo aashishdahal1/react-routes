@@ -5,6 +5,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import Home from './pages/Home';
 import About from './pages/About';
 import Counter from './pages/Counter';
+import RenderArrays from './pages/RenderArrays';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           I am a new route
         </Route>
         <Route exact path="/counter" component={Counter}/>
+        <Route exact path="/list" component={RenderArrays}/>
         <Route path="*">
           404 not found
         </Route>
